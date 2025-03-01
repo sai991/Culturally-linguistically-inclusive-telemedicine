@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore Python compiled files
 *.pyc
 *.pyo
@@ -72,3 +73,12 @@ htmlcov/
 
 # Ignore Docker files (if using Docker)
 docker-compose.override.yml
+=======
+venv/
+*.pyc
+__pycache__/
+db.sqlite3
+staticfiles/
+media/
+.env
+>>>>>>> f38785b (Initial Django project setup)
